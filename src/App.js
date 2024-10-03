@@ -1,15 +1,10 @@
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
+import Loader from './component/Loader'
+import NotFound from './component/NotFound'
 
-import Loader from './Component/Loader'
-import NotFound from './Component/NotFound'
-
-
-
-const Main = lazy(() => import('./Component/Main'));
-
-
+const Main = lazy(() => import('./pages/Main'));
 
 function App() {
   return (

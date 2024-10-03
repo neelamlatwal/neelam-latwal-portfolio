@@ -101,21 +101,7 @@ margin-left: 280px;
  .section-intro{
     text-align: left;
 }
-.overview-section .item {
-    margin-bottom: 3rem;
-    text-align: left;
-}
-.overview-section .item-icon {
-    font-size: 1.875rem;
-    color: #54B689;
-}
-.overview-section .item-title {
-    font-size: 1rem;
-}
-.overview-section .item-desc {
-    color: #4f4f4f;
-    font-size: 0.875rem;
-}
+
 .project-card {
     border-radius: 0;
     background: #fafafa;

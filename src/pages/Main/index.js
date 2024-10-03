@@ -1,7 +1,9 @@
 import React from "react";
 import "./main.css";
 import Profile from "../../assets/images/profile.jpg";
-import Facebook from "../../assets/icon/facebook-icon.png";
+// import Facebook from "../../assets/icon/facebook-icon.png";
+import OverView from "../Overview";
+import Blog from "../Blog"
 function Main() {
   return (
     <div className="layout-wrapper">
@@ -25,17 +27,17 @@ function Main() {
             </li>
             <li class="list-inline-item">
               <a href="#">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="#">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="#">
-              <i class="fa fa-gitlab" aria-hidden="true"></i>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
               </a>
             </li>
           </ul>
@@ -67,8 +69,8 @@ function Main() {
                 <h2 class="name font-weight-bold mb-1">Neelam Latwal</h2>
                 <div class="tagline mb-3">Senior Software Engineer</div>
                 <div class="bio mb-4">
-                  I'm a software engineer specialised in frontend development
-                  for complex scalable web apps. .
+                  I'm a Senior Software Engineer specializing in frontend development for complex, scalable web applications.
+                  I also share insights on software development through my blog.
                 </div>
                 <div class="mb-4">
                   <a class="btn btn-custom me-2 mb-3" href="portfolio.html">
@@ -91,121 +93,9 @@ function Main() {
           </div>
         </section>
         {/* overview section */}
-        <section class="overview-section p-5 ">
-          <div class="container">
-            <h2 class="section-title font-weight-bold mb-3">What I do</h2>
-            <div class="section-intro mb-5">
-              I have more than 10 years' experience building software for
-              clients all over the world. Below is a quick overview of my main
-              technical skill sets and technologies I use. Want to find out more
-              about my experience? Check out my{" "}
-              <a class="text-link" href="resume.html">
-                online resume
-              </a>{" "}
-              and{" "}
-              <a class="text-link" href="portfolio.html">
-                project portfolio
-              </a>
-              .
-            </div>
-            <div class="row">
-              <div class="item col-6 col-lg-4">
-                <div class="item-inner">
-                  <div class="item-icon"></div>
-                  <h3 class="item-title">Vanilla JavaScript</h3>
-                  <div class="item-desc">
-                    List skills/technologies here. You can change the icon above
-                    to any of the 1500+{" "}
-                    <a
-                      class="theme-link"
-                      href="https://fontawesome.com/"
-                      target="_blank"
-                    >
-                      FontAwesome 5 free icons
-                    </a>{" "}
-                    available. Aenean commodo ligula eget dolor.
-                  </div>
-                </div>
-              </div>
-              <div class="item col-6 col-lg-4">
-                <div class="item-inner">
-                  <div class="item-icon"></div>
-                  <h3 class="item-title">Angular, React &amp; Vue</h3>
-                  <div class="item-desc">
-                    List skills/technologies here. You can change the icon above
-                    to any of the 1500+{" "}
-                    <a
-                      class="theme-link"
-                      href="https://fontawesome.com/"
-                      target="_blank"
-                    >
-                      FontAwesome 5 free icons
-                    </a>{" "}
-                    available. Aenean commodo ligula eget dolor.{" "}
-                  </div>
-                </div>
-              </div>
-
-              <div class="item col-6 col-lg-4">
-                <div class="item-inner">
-                  <div class="item-icon"></div>
-                  <h3 class="item-title">Node.js</h3>
-                  <div class="item-desc">
-                    List skills/technologies here. You can change the icon above
-                    to any of the 1500+{" "}
-                    <a
-                      class="theme-link"
-                      href="https://fontawesome.com/"
-                      target="_blank"
-                    >
-                      FontAwesome 5 free icons
-                    </a>{" "}
-                    available. Aenean commodo ligula eget dolor.{" "}
-                  </div>
-                </div>
-              </div>
-
-              <div class="item col-6 col-lg-4">
-                <div class="item-inner">
-                  <div class="item-icon"></div>
-                  <h3 class="item-title">HTML &amp; CSS</h3>
-                  <div class="item-desc">
-                    List skills/technologies here. You can change the icon above
-                    to any of the 1500+{" "}
-                    <a
-                      class="theme-link"
-                      href="https://fontawesome.com/"
-                      target="_blank"
-                    >
-                      FontAwesome 5 free icons
-                    </a>{" "}
-                    available. Aenean commodo ligula eget dolor.{" "}
-                  </div>
-                </div>
-              </div>
-              <div class="item col-6 col-lg-3">
-                <div class="item-inner">
-                  <div class="item-icon"></div>
-                  <h3 class="item-title">Sass &amp; LESS</h3>
-                  <div class="item-desc">
-                    List skills/technologies here. You can change the icon above
-                    to any of the 1500+{" "}
-                    <a
-                      class="theme-link"
-                      href="https://fontawesome.com/"
-                      target="_blank"
-                    >
-                      FontAwesome 5 free icons
-                    </a>{" "}
-                    available. Aenean commodo ligula eget dolor.{" "}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <OverView />
         {/* project section */}
-        <section class="featured-section p-3 p-lg-5">
+        {/* <section class="featured-section p-3 p-lg-5">
           <div class="container">
             <h2 class="section-title font-weight-bold mb-5">
               Featured Projects
@@ -239,7 +129,7 @@ function Main() {
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
               </div>
               <div class="col-md-6 mb-5">
@@ -270,7 +160,7 @@ function Main() {
                       </div>
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
               <div class="col-md-6 mb-5">
@@ -301,7 +191,7 @@ function Main() {
                       </div>
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
               <div class="col-md-6 mb-5">
@@ -332,14 +222,16 @@ function Main() {
                       </div>
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
             </div>
 
           </div>
 
-        </section>
+        </section> */}
+        {/* Blog */}
+        <Blog />
       </div >
     </div >
   );
