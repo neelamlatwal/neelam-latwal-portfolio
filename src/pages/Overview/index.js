@@ -9,15 +9,15 @@ function index() {
                 <div class="section-intro mb-5">
                     I have over 5 years of experience building high-quality software solutions for a wide range of clients.
                     Below is a brief overview of my key technical skills and the technologies I specialize in.
-                    {/* Want to learn more about my experience? Feel free to explore my .
-                    <a class="text-link" href="resume.html">
+                    Want to learn more about my experience? Feel free to explore my &nbsp;
+                    <a className="text-link" href="resume.html">
                         online resume
                     </a>{" "}
                     and{" "}
-                    <a class="text-link" href="portfolio.html">
+                    <a className="text-link" href="portfolio.html">
                         project portfolio
                     </a>
-                    . */}
+                    .
                 </div>
                 <div class="row">
                     <div class="item col-6 col-lg-4">

@@ -1,0 +1,12 @@
+.profile-teaser{
+    text-align: left;
+}
+.profile-teaser .name {
+    font-size: 3rem;
+    color: #292929;
+    font-weight: bold;
+}
+.profile-teaser .tagline {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
