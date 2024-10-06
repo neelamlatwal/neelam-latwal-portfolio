@@ -1,20 +1,7 @@
-.layout-wrapper {
+/* .layout-wrapper {
     height: 100%;
     display: flex;
-}
-
-.layout-wrapper .layout-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 280px;
-    background: #54B689;
-    color: #fff;
-    overflow-y: auto;
-
-    padding: 1.5rem 1rem;
-}
+} */
 
 .layout-nav::-webkit-scrollbar {
     width: 6px;
@@ -29,52 +16,6 @@
 .layout-wrapper .layout-content {
     margin-left: 280px;
     background: #fff;
-}
-
-.layout-wrapper .layout-nav .head-title {
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.layout-wrapper .layout-nav .navbar {
-    padding: 1.5rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.layout-wrapper .profile-section .profile-image {
-    width: 160px;
-    height: 150px;
-
-}
-
-.layout-wrapper .layout-nav .bio {
-    font-size: 0.875rem;
-
-}
-
-.layout-wrapper .layout-nav .social-list {
-    padding-left: 0;
-    list-style: none;
-
-}
-
-.layout-wrapper .layout-nav .social-list a {
-    width: 32px;
-    height: 32px;
-    padding-top: 5px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    background-color: #fff;
-    color: #54b689;
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .section-title {
@@ -114,11 +55,9 @@
     text-decoration: none;
 }
 
-/* custom-btn */
-.btn-custom {
-    background-color: #54B689;
-    border-color: #54B689;
-    color: #fff;
-    font-size: 16px;
-    ;
+@media (max-width: 767px) {
+
+    .layout-wrapper .layout-content {
+        margin-left: 0;
+    }
 }

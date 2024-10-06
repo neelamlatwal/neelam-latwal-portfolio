@@ -3,7 +3,7 @@ import "./overview.css"
 
 function index() {
     return (
-        <div class="overview-section p-5 ">
+        <div class="overview-section p-3 p-lg-5 ">
             <div class="container">
                 <h2 class="section-title font-weight-bold mb-3">What I do</h2>
                 <div class="section-intro mb-5">

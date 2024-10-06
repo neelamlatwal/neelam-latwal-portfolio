@@ -44,3 +44,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* custom-btn */
+.btn-primary{
+  background-color: #54B689!important;
+  border-color: #54B689!important;
+  color: #fff;
+  font-size: 16px;
+  
+}
+.btn-secondary{
+
+  background-color: #4f4f4f!important;
+  border-color: #4f4f4f!important;
+}
+
+

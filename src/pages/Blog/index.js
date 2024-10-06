@@ -4,13 +4,13 @@ import "./blog.css";
 
 function index() {
     return (
-        <section class="blog-section p-5 p-lg-5">
+        <section class="blog-section p-3 p-lg-5">
             <div class="container">
                 <h2 class="section-title font-weight-bold mb-5">
                     Latest Blog Posts
                 </h2>
                 <div class="row">
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mb-5'>
                         <div className='card blog-post-card'>
                             <div className="card-img-top" >
 
@@ -31,7 +31,7 @@ function index() {
                         </div>
 
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mb-5'>
                         <div className='card blog-post-card'>
                             <div className="card-img-top" >
 
@@ -51,7 +51,7 @@ function index() {
                         </div>
 
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mb-5'>
                         <div className='card blog-post-card'>
                             <div className="card-img-top" >
 

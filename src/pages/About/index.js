@@ -1,11 +1,12 @@
 import React from 'react'
 import  "./about.css"
+import { Link } from 'react-router-dom'
 function index() {
     return (
-        <div className="about-me-section p-5 theme-bg-light">
+        <div className="about-me-section p-3 p-lg-5 theme-bg-light">
             <div className="container">
                 <div className="profile-teaser row">
-                    <div className="col-7">
+                    <div className="col">
                         <h2 className="name font-weight-bold mb-1">Neelam Latwal</h2>
                         <div className="tagline mb-3">Senior Software Engineer</div>
                         <div className="bio mb-4">
@@ -13,12 +14,12 @@ function index() {
                             I also share insights on software development through my blog.
                         </div>
                         <div className="mb-4">
-                            <a className="btn btn-custom me-2 mb-3" href="portfolio.html">
+                            <a className="btn btn-primary me-2 mb-3" href="portfolio.html">
                                 <span className="d-none d-md-inline">View</span> Portfolio
                             </a>
-                            <a className="btn btn-secondary mb-3" href="resume.html">
+                            <Link className="btn btn-secondary mb-3" to="/resume">
                                 <span className="d-none d-md-inline">View</span> Resume
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
